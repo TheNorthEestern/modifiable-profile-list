@@ -1,0 +1,141 @@
+.bio-container{
+margin:0 auto; 
+width: 1150px;
+height:350px;
+font-family: 'Dosis', sans-serif;
+margin-top: 10%;
+}
+.scrollable {
+/* required settings */
+position:relative;
+overflow:hidden;
+width: 1010px;
+height:420px;
+margin: 0 auto;
+}
+.scrollable .items {
+/* this cannot be too large */
+width:20000em;
+position:absolute;
+}
+.items div {
+float:left;
+}	
+.employee-bio
+{
+height: 400px;
+width: 300px;
+background: #D8D8D8;
+margin: 0 2px 0 2px;
+border-radius: 7px;
+padding: 0 15px 15px 15px;
+border: 1px solid #AAA;
+}
+.memberName, .joinDate
+{
+float:right;
+}
+.memberName
+{
+font-size: 1.5em;
+padding-bottom : 4px;
+font-weight: bold;
+color: #4D9CCD;
+}
+.lifeStory p
+{
+padding-top: 30px;
+}
+.bio-pic
+{
+float:left;
+}
+.role
+{
+float: right;
+font-style: italic;
+}
+a.browse
+{
+position: relative;
+top : 50%;
+background: black;
+display: block;
+padding-top : 10px;
+border-radius: 4px;
+width: 60px;
+height: 30px;
+#margin: 40px 10px;
+cursor: pointer;
+
+}
+a.left
+{
+float: left;
+}
+a.right{
+float: right;
+} 
+a.disabled
+{
+visibility: hidden;
+}
+#tooltip {
+width:100px;
+background-color: black;
+font-family: Helvetica, Arial, sans-serif;
+font-weight : bold;
+text-align: center;
+padding:5px;
+font-size:11px;
+z-index: 1;
+display: none;
+color: white
+}
+#action-complete {
+
+display:none;
+width:400px;
+border:10px solid #666;
+border:10px solid rgba(82, 82, 82, 0.698);
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+}
+
+#action-complete div {
+padding:10px;
+border:1px solid #3B5998;
+background-color:#fff;
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif
+}
+
+#action-complete h2 {
+margin:-11px;
+margin-bottom:0px;
+color:#fff;
+background-color:#000;
+padding:5px 10px;
+font-size:20px;
+}
+.remove {float: right;}
+.remove:hover {cursor: pointer;}
+#removal-area { background: black; 
+		color: white; 
+		width: 300px; 
+		position: fixed; 
+		bottom: 0; 
+		right: 7%; 
+		padding: 10px 10px 0 10px;
+		border-top-right-radius: 5px; 
+		border-top-left-radius: 5px; 
+		font-family: sans-serif;
+display: none;
+	}
+#removal-area ul
+{
+list-style: none;
+}
+#removal-area li:hover
+{
+cursor: pointer;	
+}
